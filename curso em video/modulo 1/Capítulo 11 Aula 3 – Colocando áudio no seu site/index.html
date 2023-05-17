@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando audio</title>
+</head>
+<body>
+    <h1>Adicionando um audio</h1>
+    <h2>1º maneira de adicionar</h2>
+    <audio src="assets/audio/audio-01.mp3" controls></audio>
+    <h2>2º maneira de adicionar</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="assets/audio/audio-01.mp3" type="audio/mpeg">
+        <source src="assets/audio/audio-01.ogg" type="audio/ogg">
+        <source src="assets/audio/audio-01.mp3" type="audio/wav">
+        <p>Infelismente seu navegador não consegue reproduzir áudio.</p><a href="assets/audio/audio-01.mp3">Clique aqui para baixar o arquivo MP3</a>
+    
+</body>
+</html>
